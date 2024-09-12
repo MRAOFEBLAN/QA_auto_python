@@ -53,8 +53,8 @@ def run_tests():
 
     if exists:
         print("Deleting repository...")
-        #delete_response = delete_repository()
-        #print(f"Delete response: {delete_response.status_code}")
+        delete_response = delete_repository()
+        print(f"Delete response: {delete_response.status_code}")
 
 
 
